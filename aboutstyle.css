@@ -1,0 +1,52 @@
+/* Reset some default styling */
+body, h1, h2, p, ul, li {
+    margin: 10;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, nav, main, footer {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e1f8ff;
+    box-shadow: 0 2px 4px rgba(5, 4, 6, 3.1);
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    
+    text-align: center;
+    margin-right: 80px;
+}
+
+nav a {
+    
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    
+    color: #007bff;
+}
+

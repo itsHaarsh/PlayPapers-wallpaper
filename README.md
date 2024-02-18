@@ -1,1 +1,1 @@
-LINK-https://itshaarsh.github.io/PlayPapers-wallpaper/
+https://playpapers.netlify.app
